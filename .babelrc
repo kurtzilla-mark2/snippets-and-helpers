@@ -1,0 +1,11 @@
+// from Rem Z Sept 2017
+// install the following packages:
+// yarn add --dev babel-cli babel-preset-env
+// add to package.json scripts
+//  "start": "babel-node server.js"
+//  - or -
+//  "start": "nodemon --exec babel-node -- server.js"
+
+{ 
+  "presets": [ "env" ]
+}
